@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.timer__block{
+display: flex;
+text-align: center;
+padding-top: 25px;
+}
+
+.timer__hours,
+.timer__minutes,
+.timer__seconds{
+    height: 100px;
+    width: 100px;
+    background-color: #F1F3F4;
+    padding-top: 25px;
+}
+
+.timer__number{
+    font-size: 25px;
+    font-weight: 700;
+}
